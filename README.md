@@ -1,5 +1,9 @@
 # cellsim
 
+## Playground
+https://jsfiddle.net/5o82Ld0e/49/
+
+## Notes
 * https://www.youtube.com/watch?v=M2ApXHhYbaw
 * http://www.wormbook.org
 * https://en.wikipedia.org/wiki/OpenWorm
