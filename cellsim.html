@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+Initial:<input type="number" id="init" style="width:3em" value="7" min="1" max="3000">
+<button onclick="reset()" class="favorite styled" type="button">Reset</button>
+<button onclick="go()" class="favorite styled" type="button">Go</button>
+<button onclick="pause()" class="favorite styled" type="button">Pause</button>
+<button onclick="stop()" class="favorite styled" type="button">Stop</button>
+<span>Count:</span><span id="count"></span>
+<br>
+Rate:<input type="number" id="divrate" style="width:4em" value="100" min="1" max="3000">ms 
+LifeSpan:<input type="number" id="lifespan" style="width:5em" value="7" min="1" max="3000">#telomers
+Growth:<select name="growthstrategy" id="growthstrategy">
+<option value="inside">Inside</option>
+<option value="outside">Outside</option>
+<option value="exponential">Exponential</option>
+<option value="random">Random Linear</option>
+<option value="stem">Stem Line</option>
+<option value="stem-linear">Stem Line Linear</option>
+</select>
+<span id="console"></span>
+<br>
+<canvas width="960" height="750"></canvas>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
