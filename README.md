@@ -1,7 +1,8 @@
 # cellsim
 
-The use of javascript and d3 to model cellular division.  
+The use of javascript and [d3-force](https://github.com/d3/d3-force) to model cellular division.  
 
+Started based on https://bl.ocks.org/mbostock/31ce330646fa8bcb7289ff3b97aab3f5 
 Next goal is to add links between cells https://bl.ocks.org/mbostock/3180395 
 
 
